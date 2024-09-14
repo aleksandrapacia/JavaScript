@@ -37,3 +37,7 @@ const person = {
 
 console.log(person.getAddress())
 console.log(person.passion.title)
+
+favoriteNumbers = [7, 11, 24, 56];
+console.log(favoriteNumbers.length);
+console.log(favoriteNumbers.join(" | "));
