@@ -19,6 +19,21 @@ const person = {
     favoriteFood: "Pizza",
     wantsPizzaRightNow: true,
     numberOfPizzaPiecesWanted: 100,
+    passion: {
+        title: 'Horse Riding',
+        lastTimeDone: '2 years ago'
+    },
+    getAddress() {
+        return `
+        My name is: ${this.name} 
+        I live in: ${this.voivodship} <3
+    
+        `
+    }
+
+
 }
 
-console.log(person.name)
+
+console.log(person.getAddress())
+console.log(person.passion.title)
