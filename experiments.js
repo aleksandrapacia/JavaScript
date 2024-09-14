@@ -41,3 +41,14 @@ console.log(person.passion.title)
 favoriteNumbers = [7, 11, 24, 56];
 console.log(favoriteNumbers.length);
 console.log(favoriteNumbers.join(" | "));
+
+cities = [
+    "Warsaw",
+    "Rome",
+    'Barcelona',
+];
+
+for (let i=0; i<cities.length; i++) {
+    console.log(i, cities[i]);
+}
+
