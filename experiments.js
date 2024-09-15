@@ -52,3 +52,8 @@ for (let i=0; i<cities.length; i++) {
     console.log(i, cities[i]);
 }
 
+const button = document.querySelector(".event-button");
+button.addEventListener("click", function () {
+    alert("Hey there");
+});
+
